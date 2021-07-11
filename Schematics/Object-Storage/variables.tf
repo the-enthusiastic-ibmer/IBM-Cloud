@@ -12,12 +12,15 @@ variable "E_API_KEY" {
 variable "region" {
   description = "Datacenter Region"
   default= "<insert region, us-south/east, etc>"
+  # Example: default = "us-south"
 }
 variable "cos_instance_name-1" {
   type = string
   default = "<insert-instance-name>"
+  # Example: default = "COS-1"
 }
 variable "bucket_name-1" {
   type = string
   default = "<insert-bucket-name>"
+  # Example: default = "my-test-bucket1"
 }
