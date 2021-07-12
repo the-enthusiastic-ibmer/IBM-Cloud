@@ -16,6 +16,7 @@ resource "ibm_resource_instance" "resinstance" {
   resource_group_id = data.ibm_resource_group.resgroup.id
 }
 
+/*
 data "ibm_resource_instance" "resinstance_id" {
   name = var.cos_instance_name-1
   service = "cloud-object-storage"
@@ -28,3 +29,4 @@ resource "ibm_cos_bucket" "my_bucket" {
   region_location = var.region
   storage_class = "standard"
 }
+*/
